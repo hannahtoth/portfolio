@@ -1,0 +1,49 @@
+
+.fs-4{
+    color: #556f49;
+}
+
+
+.navabr{
+    color: #556f49;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    position: relative;
+  }
+  
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #556f49;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+#projects{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#resume{
+    color: #556f49;
+}
+
+
+
+#contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    background-color: #556f49;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
