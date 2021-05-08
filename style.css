@@ -36,6 +36,23 @@
     color: #556f49;
 }
 
+#resumeLink{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-block2 {
+
+    bottom: 20px;
+    right: 20px;
+    background-color: #556f49;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;;
+  }
+
 
 
 #contact{
@@ -47,3 +64,7 @@
 
 }
 
+
+#links{
+   padding-left: 150px;
+}

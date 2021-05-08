@@ -33,7 +33,7 @@
       </header>
 
       <div class="container" id="img">
-        <img src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1035&q=80" alt="img by Sarah Dorweiler">
+        <img src="asset/images/about-me.jpeg"img by Sarah Dorweiler">
         <div class="text-block" id="aboutMe">
           <h5>Hi there,</h5>
           <p>My name is Hannah and I make things.
@@ -41,7 +41,10 @@
             <br>
             Let me show you some of my work. 
           </p>
-
+        
+         
+          
+          </div>
         </div>
         </div>
     
@@ -54,40 +57,43 @@
       <div class="row row-cols-1 row-cols-md-2 g-4" id="projects">
         <div class="col">
           <div class="card">
-              <a href="https://codepen.io/hannahtoth/pen/RwKWMKp">
+              <a href="https://codepen.io/hannahtoth/pen/RwKWMKp" target="_blank">
             <img src="asset/images/CSScreature.png" class="card-img-top" width="300" height="300"  alt="CSScreature"></a>
             <div class="card-body">
               <h5 class="card-title">CSS Creature</h5>
-              <p class="card-text" >The CSS Creature is my very first attempt at using HTML and CSS together.For this project I wanted to make something fun while still challenging myself so I chose to create a portrait of my very best friend, Penelope Pasta, who is also my cat. The creature is a little rough but this project taught me a lot about how CSS and HTML interact together on a webpage. </p>
+              <p class="card-text" >The CSS Creature is my very first attempt at using HTML and CSS together. For this project I wanted to make something fun while still challenging myself so I chose to create a portrait of my very best friend, Penelope Pasta, who is also my cat. </p>
             </div>
+            
           </div>
         </div>
         <div class="col">
           <div class="card">
-              <a href="https://hannahtoth.github.io/StaticWeb/">
+              <a href="https://hannahtoth.github.io/StaticWeb/" target="_blank">
             <img src="asset/images/staticwebsites.png" class="card-img-top" width="300" height="300"  alt="staticwebsites"></a>
             <div class="card-body">
               <h5 class="card-title">Static Web</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquid enim asperiores est itaque molestiae dolore, eius et eveniet perferendis, maxime odio. Qui voluptatum, recusandae perferendis dolorum  dolor!</p>
+              <p class="card-text">The Static Web project was my first experience using Bootstrap to design a responsive web page as well as my first time deploying a project on Github Pages.<br>
+            <br></p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-              <a href="https://hannahtoth.github.io/api-project-1/">
+              <a href=" https://hannahtoth.github.io/api1/" target="_blank">
             <img src="asset/images/api1.svc.png" class="card-img-top" width="300" height="300"  alt="api1"></a>
             <div class="card-body">
               <h5 class="card-title">Api 1</h5>
-              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero architecto laboriosam nisi, quas placeat impedit et, quis dolor tempore consequuntur ipsum? Qui facere hic odit nemo voluptas excepturi doloremque animi.</p>
+              <p class="card-text">API Challenge 1 was my first attempt at utilizing fetch and DOM manipulation. I used the Studio Ghibli API to fetch and display the names of each of the cats that are featured in the films.  </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="asset/images/api2.png" class="card-img-top" width="300" height="300"  alt="api2">
+              <a href="https://nasa-api-project-ht.web.app/" target="_blank">
+            <img src="asset/images/api-2.png" class="card-img-top" width="300" height="300"  alt="api2"> </a>
             <div class="card-body">
               <h5 class="card-title">API 2</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores delectus et, magni saepe dolor distinctio facilis amet rem? Quae, ducimus. Voluptas aspernatur consectetur molestiae facilis quidem aliquid necessitatibus?</p>
+              <p class="card-text">API Challenge 2 was my second attempt at utilizing fetch and DOM manipulation. In this project I used NASA's API to display an image of the day when the submit button is clicked. </p>
             </div>
           </div>
         </div>
@@ -114,12 +120,17 @@
     <br>
 
 
-    <div id="resume">
-    <iframe src="/asset/images/Hannah.Toth.Resume.pdf" width="100%" height="500px">
-    </iframe>
-  
+    <div class="container" id="resumeContainer">
+        <div class="text-block2" id="resume">
+            <a href="asset/images/Hannah.Toth.Resume.pdf" class="stretched-link" download rel="noopener noreferrer" target="_blank" id="resumeLink"> </a>
+        <img src="asset/images/Hannah.Toth.Resume.jpg" class="w-100" alt="resume">
+      
 
-      </div>
+        </div>
+        </div>
+    
+
+
 
       <br>
       <footer class="footer mt-auto py-3 bg-light">
@@ -144,6 +155,18 @@
                       <div class="col">
                         <button type="button" class="btn btn-outline-light">submit</button>
                       </div>
+                     <div class="col">
+
+                          <a href="https://www.linkedin.com/in/htoth/" class="btn btn-outline-light" target="_blank">LinkenIn</a> 
+                    
+                        <a href="https://github.com/hannahtoth" class="btn btn-outline-light" target="_blank">Github</a> 
+                      </div>  
+                    
+                      
+
+                     
+
+
                   </div>
                   </div>  
           </form>
